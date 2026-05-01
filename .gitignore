@@ -1,5 +1,23 @@
+# Node dependencies
 node_modules/
+
+# Python virtual env
 venv/
 __pycache__/
 *.pyc
+
+# ML generated files
+vision/dataset/
+vision/plant_disease_model.h5
+vision/class_indices.json
+
+# Environment files
 .env
+
+# Build folders
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
